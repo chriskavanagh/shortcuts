@@ -1,24 +1,15 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: Raleway, sans-serif;
-  font-size: 1.5em;
-  background: #1b1523;
-  color: #fff;
+.card {
+  position: relative;
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
+.card img {
+  width: 100%;
+  display: block;
+  border: 2px solid #fff;
+  border-radius: 6px;
 }
 
 /* front of card - the picture */
-/* .card .front {
+.card .front {
   transform: rotateY(90deg);
   transition: all ease-in 0.2s;
   position: absolute;
@@ -28,7 +19,7 @@ a {
   transition-delay: 0.2s;
 }
 
-
+/* back of card - cover */
 .card .back {
   transition: all ease-in 0.2s;
   transition-delay: 0.2s;
@@ -36,4 +27,4 @@ a {
 .flipped .back {
   transform: rotateY(90deg);
   transition-delay: 0s;
-} */
+}
